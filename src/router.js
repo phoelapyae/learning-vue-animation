@@ -4,6 +4,8 @@ import Modal from "./views/Modal.vue";
 import List from "./views/List.vue";
 import Drawer from "./views/Drawer.vue";
 import Card from "./views/Card.vue";
+import Simple from "./views/Simple.vue";
+import Stagger from "./views/Stagger.vue";
 
 Vue.use(Router);
 
@@ -30,6 +32,16 @@ export default new Router({
       path: "/card",
       name: "card",
       component: Card
+    },
+    {
+      path: "/simple",
+      name: "simple",
+      component: Simple
+    },
+    {
+      path: "/stagger",
+      name: "stagger",
+      component: Stagger
     },
     {
       path: "/about",
