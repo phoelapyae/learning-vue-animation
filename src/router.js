@@ -8,6 +8,7 @@ import Simple from "./views/Simple.vue";
 import Stagger from "./views/Stagger.vue";
 import State from "./views/State.vue";
 import Timeline from "./views/Timeline.vue";
+import Master from "./views/Master.vue";
 
 Vue.use(Router);
 
@@ -54,6 +55,11 @@ export default new Router({
       path: "/timeline",
       name: "timeline",
       component: Timeline
+    },
+    {
+      path: "/master",
+      name: "master",
+      component: Master
     },
     {
       path: "/about",
